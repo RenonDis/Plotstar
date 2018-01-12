@@ -19,11 +19,11 @@ Professeur : [Romain Vuillemot](http://www.ec-lyon.fr/contacts/romain-vuillemot)
 
 ## Question 2 : Dataset Cars ? Campaign
 
-* Le dataset us-election fourni n'a pas pu être correctement lu par *PoleStar*. Un dataset alternatif a été choisi.
+Le dataset us-election fourni n'a pas pu être correctement lu par *PoleStar*. Un dataset alternatif a été choisi.
 
 ## Question 3 : Dataset Stocks
 
-*Visualisation des données Stocks en ligne par cours selon le symbole, couleur par symbole* 
+### Visualisation des données Stocks en ligne par cours selon le symbole, couleur par symbole
 
 <table border="0">
   <tr>
@@ -38,7 +38,7 @@ Professeur : [Romain Vuillemot](http://www.ec-lyon.fr/contacts/romain-vuillemot)
   </tr>
 </table>
 
-*Visualisation des données Stocks en barres par cours groupée par symbole*
+*Visualisation des données Stocks en barres par cours groupée par symbole
 
 Pour cette visualisation, la largeur des barres est aussi fonctions du symbole, pour que les barres d'un symbole ne cachent pas celle d'un autre en se superposant.
 
