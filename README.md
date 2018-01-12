@@ -1,40 +1,76 @@
 # Interactive Data Visualization (ECL MOS 5.5)
 
-[Romain Vuillemot](http://www.ec-lyon.fr/contacts/romain-vuillemot), *LIRS/MI École Centrale de Lyon*, [Site Web](http://romain.vuillemot.net/),  [Twitter](https://twitter.com/romsson).
+Professeur : [Romain Vuillemot](http://www.ec-lyon.fr/contacts/romain-vuillemot), *LIRS/MI École Centrale de Lyon*
 
-  Contact or questions: romain.vuillemot@ec-lyon.fr
-
-## Reading
+## Question 1 : Dataset Iris
 
 <table border="0">
   <tr>
     <td>
-      <img src="img/book-cover-interactive-data-visulization-murray.png" style="width: 100px;">
+      <img src="img/irisViz.png" style="width: 100px;">
     </td>
+  </tr>
+  <tr>
     <td>
-      <a href="http://chimera.labs.oreilly.com/books/1230000000345">Interactive Data Visualization for the Web</a><br>by Scott Murray
+      Visualisation des données Iris avec espèces par couleur, et effectif par taille
     </td>
   </tr>
 </table>
 
-## Grading
+## Question 2 : Dataset Cars ? Campaign
 
-* 40% Final exam
-* 40% Final projects
-* 20% Homeworks/Submitted assignments (pass/fail policy)
+* Le dataset us-election fourni n'a pas pu être correctement lu par *PoleStar*. Un dataset alternatif a été choisi.
 
-## **Lecture 1 - Introduction to Data Visualization** 
+## Question 3 : Dataset Stocks
 
-*Friday 12/01/2018 13:30-15:30*
+*Visualisation des données Stocks en ligne par cours selon le symbole, couleur par symbole* 
 
-* Overview: Class organization, learning paths ([slides](https://docs.google.com/presentation/d/1YaPshJZLDj6M0XBMtmHqANeH17JINdB3Ie5G8RdC74U/edit#slide=id.p))
-* Basics of Data Visualization: Perception, cognition, Visual mapping, Standard charts ([slides](https://docs.google.com/presentation/d/1YY8h1wjfaAv172LVa8kVAnxCyEB547HRL43JlEOvCH0/edit#slide=id.p))
-* Authoring visualizations: Libraries, Tools, Tableau Software ([slides](https://docs.google.com/presentation/d/18b-B9wAYpq93nbROxRe9u6-7xexuBLM7T-yapqGoYdo/edit#slide=id.g2f7ee94efd_0_45))
+<table border="0">
+  <tr>
+    <td>
+      <img src="img/multLineStocks.png" style="width: 100px;">
+    </td>
+  </tr>
+  <tr>
+    <td>
+      Visualisation des données Stocks par cours selon le symbole, couleur par symbole
+    </td>
+  </tr>
+</table>
 
-## **Tutorial 1 - Tableau Software**
-Friday 12/01/2018 15:45-17:45
+*Visualisation des données Stocks en barres par cours groupée par symbole*
 
-*Tableau Tutorial* 
+Pour cette visualisation, la largeur des barres est aussi fonctions du symbole, pour que les barres d'un symbole ne cachent pas celle d'un autre en se superposant.
+
+<table border="0">
+  <tr>
+    <td>
+      <img src="img/SizeColorStocks.png" style="width: 100px;">
+    </td>
+  </tr>
+  <tr>
+    <td>
+      Visualisation des données Stocks par cours selon le symbole groupée par symbole
+    </td>
+  </tr>
+</table>
+
+*Visualisation de l'amplitude des données Stocks et de leur densité*
+
+Pour cette visualisation, nous avons choisi d'afficher pour chaque symbole la répartition de ses prix sur son amplitude, pour voir les zones dans lesquelles les prix se retrouvent le plus fréquemment.
+
+<table border="0">
+  <tr>
+    <td>
+      <img src="img/AmplStocks.png" style="width: 100px;">
+    </td>
+  </tr>
+  <tr>
+    <td>
+      Visualisation de l'amplitude des données Stocks et de leur densité
+    </td>
+  </tr>
+</table>
 
 1. The goal is to have a first experience with Tableau and build standard charts using a simple dataset.
 2. Download and install [Tableau Public](https://public.tableau.com/) (Free) on your machine
