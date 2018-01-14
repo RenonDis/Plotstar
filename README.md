@@ -17,9 +17,25 @@ Professeur : [Romain Vuillemot](http://www.ec-lyon.fr/contacts/romain-vuillemot)
   </tr>
 </table>
 
-## Question 2 : Dataset Cars ? Campaign
+## Question 2 : Dataset Movies
 
-Le dataset us-election fourni n'a pas pu être correctement lu par *PoleStar*. Un dataset alternatif a été choisi.
+Le dataset *us-election* fourni n'a pas pu être correctement lu par *PoleStar*. Un dataset alternatif a été choisi.
+Nous avons donc choisi le dataset *Movies* en cherchant à montrer un lien entre sa popularité, caractérisée par sa note *IMDB*, croisée avec l'équivalent *Rotten Tomatoes*, et le budget alloué, ainsi que les revenus dégagés.
+
+<table border="0">
+  <tr>
+    <td>
+      <img src="img/imdbProd.png" style="width: 100px;">
+    </td>
+  </tr>
+  <tr>
+    <td>
+      Visualisation des données Movie : argent et popularité
+    </td>
+  </tr>
+</table>
+
+Le dégradé *Rotten Tomatoes* vérifie plutôt bien les notes *IMDB*. Il ressort de cette visualisation qu'à partir d'une note de 6, le budget alloué semble avoir moins d'impact sur la popularité et les chiffres d'affaire réalisés.
 
 ## Question 3 : Dataset Stocks
 
